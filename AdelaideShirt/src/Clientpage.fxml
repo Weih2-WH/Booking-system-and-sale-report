@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientController">
+   <children>
+      <Text layoutX="114.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client Information" textAlignment="CENTER" wrappingWidth="348.27490234375">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="165.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text layoutX="164.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:" />
+      <Text layoutX="164.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone:" />
+      <Text layoutX="164.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender(M/F/N):" />
+      <TextField fx:id="te1" layoutX="257.0" layoutY="69.0" onAction="#submit" />
+      <TextField fx:id="te2" layoutX="257.0" layoutY="98.0" onAction="#submit" />
+      <TextField fx:id="te3" layoutX="257.0" layoutY="128.0" onAction="#submit" />
+      <TextField fx:id="te4" layoutX="257.0" layoutY="158.0" onAction="#submit" />
+      <Text layoutX="126.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Information" textAlignment="CENTER" wrappingWidth="348.27490234375">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PayType(Cash/Card)):" />
+      <Text layoutX="38.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CarType:(Master/Visa)" />
+      <Text layoutX="38.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card Number:" />
+      <TextField fx:id="te5" layoutX="169.0" layoutY="249.0" onAction="#submit" />
+      <TextField fx:id="te6" layoutX="165.0" layoutY="295.0" onAction="#submit" text=" " />
+      <TextField fx:id="te7" layoutX="165.0" layoutY="325.0" onAction="#submit" text=" " />
+      <Text layoutX="344.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CSC:" />
+      <Text layoutX="344.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card Deadline:" />
+      <TextField fx:id="te8" layoutX="437.0" layoutY="293.0" onAction="#submit" text=" " />
+      <TextField fx:id="te9" layoutX="437.0" layoutY="323.0" onAction="#submit" text=" " />
+      <Button fx:id="submit" layoutX="288.0" layoutY="361.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <Text layoutX="437.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YYYYmm" wrappingWidth="98.7236328125" />
+   </children>
+</AnchorPane>

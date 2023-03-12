@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MTopController">
+   <children>
+      <TableView fx:id="t" layoutX="14.0" layoutY="61.0" prefHeight="340.0" prefWidth="577.0">
+        <columns>
+          <TableColumn fx:id="orderM" prefWidth="91.0" text="Order Month" />
+          <TableColumn fx:id="shirtT" prefWidth="106.0" text="Shirt Type" />
+            <TableColumn fx:id="shirtID" prefWidth="85.0" text="Shirt ID" />
+            <TableColumn fx:id="OrderN" prefWidth="114.0" text="Order Number" />
+        </columns>
+      </TableView>
+      <Text layoutX="68.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monthly Top 3 Item by Type">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OrderController">
+   <children>
+      <TableView fx:id="t1" layoutX="21.0" layoutY="24.0" prefHeight="200.0" prefWidth="558.0">
+        <columns>
+          <TableColumn fx:id="c2" prefWidth="75.0" text="OrderNumber" />
+            <TableColumn fx:id="c3" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="c4" prefWidth="75.0" text="Description" />
+            <TableColumn fx:id="c5" prefWidth="75.0" text="Uniprice" />
+            <TableColumn fx:id="c6" prefWidth="105.0" text="Inventory" />
+            <TableColumn fx:id="c7" prefWidth="75.0" text="Discount" />
+        </columns>
+      </TableView>
+      <Button fx:id="Done" layoutX="272.0" layoutY="314.0" mnemonicParsing="false" text="Done" onAction="#order"/>
+   </children>
+</AnchorPane>
